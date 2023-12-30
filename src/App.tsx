@@ -1,27 +1,39 @@
-import React from 'react';
 import './App.scss';
+import { Outlet } from 'react-router-dom';
+import React, { useContext } from 'react';
+import { Footer } from './components/Footer/Footer';
+import { Header } from './components/Header/Header';
+import { StateStore } from './store/StoreContext';
+import { Loader } from './components/Loader';
+import { ErrorMessage } from './components/ErrorMessage/ErrorMessage';
 
-interface Props {
-  onClick: () => void;
-}
+const App: React.FC = () => {
+  const { isError, isLoader } = useContext(StateStore);
 
-export const Provider: React.FC<Props> = React.memo(
-  ({ onClick, children }) => (
-    <button
-      type="button"
-      onClick={onClick}
-    >
-      {children}
-    </button>
-  ),
-);
-
-export const App: React.FC = () => {
   return (
-    <div className="starter">
-      <Provider onClick={() => ({})}>
-        <TodoList />
-      </Provider>
+    <div className="App">
+      <Header />
+
+      <div className="container">
+
+        {
+          isLoader && (<Loader />)
+        }
+
+        {
+          !isLoader && (
+            isError ? (
+              <ErrorMessage />
+            ) : (
+              <Outlet />
+            )
+          )
+        }
+      </div>
+
+      <Footer />
     </div>
   );
 };
+
+export default App;
