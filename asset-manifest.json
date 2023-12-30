@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "./static/css/main.980c18dc.chunk.css",
+    "main.js": "./static/js/main.2fb48fef.chunk.js",
+    "main.js.map": "./static/js/main.2fb48fef.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.8c9895b1.js",
+    "runtime-main.js.map": "./static/js/runtime-main.8c9895b1.js.map",
+    "static/js/2.8762fac5.chunk.js": "./static/js/2.8762fac5.chunk.js",
+    "static/js/2.8762fac5.chunk.js.map": "./static/js/2.8762fac5.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.980c18dc.chunk.css.map": "./static/css/main.980c18dc.chunk.css.map",
+    "static/js/2.8762fac5.chunk.js.LICENSE.txt": "./static/js/2.8762fac5.chunk.js.LICENSE.txt",
+    "static/media/arrowDownDisabled.svg": "./static/media/arrowDownDisabled.98c9dd6d.svg",
+    "static/media/arrowLeft.svg": "./static/media/arrowLeft.c0d01b22.svg",
+    "static/media/arrowLeftDisabled.svg": "./static/media/arrowLeftDisabled.7460d679.svg",
+    "static/media/arrowRight.svg": "./static/media/arrowRight.4756c064.svg",
+    "static/media/arrowRightDisabled.svg": "./static/media/arrowRightDisabled.e028d388.svg",
+    "static/media/arrowUp.svg": "./static/media/arrowUp.a61ad2d0.svg",
+    "static/media/arrowUpDisabled.svg": "./static/media/arrowUpDisabled.1ea6958a.svg",
+    "static/media/banner-1.png": "./static/media/banner-1.b4eeda8b.png",
+    "static/media/banner-2.png": "./static/media/banner-2.a962057c.png",
+    "static/media/banner-3.png": "./static/media/banner-3.bdd2e0fc.png",
+    "static/media/cart.svg": "./static/media/cart.1962e424.svg",
+    "static/media/category-accessories.png": "./static/media/category-accessories.f1ab5381.png",
+    "static/media/category-phones.png": "./static/media/category-phones.28ccbbf3.png",
+    "static/media/category-tablets.png": "./static/media/category-tablets.1a0db91f.png",
+    "static/media/close.svg": "./static/media/close.3ea864f5.svg",
+    "static/media/favourites.svg": "./static/media/favourites.dbd19c03.svg",
+    "static/media/favouritesSelected.svg": "./static/media/favouritesSelected.d554a185.svg",
+    "static/media/home.svg": "./static/media/home.d4c29e4f.svg",
+    "static/media/logo.svg": "./static/media/logo.13ce922e.svg",
+    "static/media/minus.svg": "./static/media/minus.cecb4be3.svg",
+    "static/media/plus.svg": "./static/media/plus.dea15724.svg",
+    "static/media/search.svg": "./static/media/search.66a1fd86.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c9895b1.js",
+    "static/js/2.8762fac5.chunk.js",
+    "static/css/main.980c18dc.chunk.css",
+    "static/js/main.2fb48fef.chunk.js"
+  ]
+}
