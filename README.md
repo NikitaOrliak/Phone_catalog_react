@@ -1,9 +1,18 @@
-# React TypeScript Starter Pack
+# Phone catalog
 
-To use this template click `Use this template`
+This is a Phone catalog created by me.
 
-### Available Scripts
+Technologies that were used:
+- HTML
+- SCSS
+- JS
+- TS
+- React
 
-`Deploy` - available to deploy your application to gh-pages
+[DEMO LINK](https://NikitaOrliak.github.io/Phone_catalog_react/)
 
-`SCSS Preprocessor` - available to write your styles with modern style language
+Additional launch instructions:
+- git clone https://github.com/NikitaOrliak/Phone_catalog_react.git
+- npm install
+- npm start
+
