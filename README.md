@@ -1,7 +1,5 @@
 # Phone catalog
 
-Phone catalog.
-
 Technologies that were used:
 - HTML
 - SCSS
