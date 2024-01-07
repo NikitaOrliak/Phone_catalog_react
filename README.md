@@ -1,6 +1,6 @@
 # Phone catalog
 
-This is a Phone catalog created by me.
+Phone catalog.
 
 Technologies that were used:
 - HTML
